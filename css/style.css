@@ -52,6 +52,31 @@ table {
 body {
     background-color: LightGray;
 }
-div {
+/*div {
     border: 1px solid Chocolate;
+}*/
+nav {
+	background-color: white;
+}
+.content {
+	width: 60%;
+	margin: 0 auto;
+}
+.content ul {
+	float: right;
+	margin-top: 20px;
+	font-size: 0.7em;
+	color: #838994;
+	font-family: Arial, sans-serif;
+}
+.content li {
+	display: inline-block;
+	margin-left: 15px;
+}
+.content li:hover {
+	color: #333333;
+}
+#karma {
+	color: #4c5058;
+	font-weight: 500;
 }
