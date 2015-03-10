@@ -49,9 +49,9 @@ table {
 /*end of reset*/
 
 /*Visual help while making page*/
-body {
+/*body {
     background-color: LightGray;
-}
+}*/
 /*div {
     border: 1px solid Chocolate;
 }*/
@@ -104,6 +104,12 @@ nav {
 	position: fixed;
 	border-bottom: 1px solid LightGray;
 }
+footer {
+	background-color: white;
+	text-align: center;
+	color: #1d1e21;
+	margin-bottom: 10em;
+}
 button {
 	width: 9em;
 	padding: 1em 1.5em;
@@ -119,6 +125,11 @@ button:hover {
 	background-color: #d9400e;
 	border-color: #cf3d0e;
 	cursor: pointer;
+}
+hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin-bottom: 2em;
 }
 .content {
 	width: 60%;
@@ -182,8 +193,15 @@ button:hover {
 	margin-left: 0;
 	width: 33%;
 	text-align: center;
+	float: left;
 }
 .devices h3 {
 	margin-top: 2em;
 	font-weight: 400;
+}
+.icons li {
+	width: 20px;
+	height: 20px;
+	background-color: gray;
+	margin: 1em 0;
 }
